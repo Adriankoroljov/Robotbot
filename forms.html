@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div class="container__form">
+        <div class="container__form-header">
+            <a href="index.html"><</a>
+            <h2>Заявка на вступление</h2>
+        </div>
+        <form>
+            <fieldset>
+                <legend>Ваш никнейм в реальной жизни</legend>
+                <input type="text" placeholder="Имя" class="first-name">
+                <input type="text" placeholder="Фамилия" class="second-name">
+            </fieldset>
+            <div>
+                <p class="gender">Ваш пол</p>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Мужчина</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Женщина</label>
+            </div>
+            <div>
+                <input type="checkbox" id="age">
+                <label for="age">Мне есть 18 лет</label>
+            </div>
+            <div>
+            <label for="game">Ваша дисциплина</label>
+                <select id="game">
+                    <option>CS:GO</option>
+                    <option>Dota</option>
+                    <option>Apex</option>
+                    <option>Pubg</option>
+                </select>
+            </div>
+            <div>
+                <textarea placeholder="Дополнительная информация"></textarea>
+            </div>
+            <button class="send_request"><p>Отправить заявку</p></button>
+        </form>
+    </div>
+    
+</body>
+</html>
